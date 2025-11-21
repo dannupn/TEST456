@@ -1,0 +1,28 @@
+/* Reset margin dan padding default browser agar lebih rapi */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* Bagian ini yang mengatur Font menjadi Sans Serif */
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  /* Styling tambahan agar tidak terlalu polos */
+  background-color: #f0f2f5; /* Warna latar abu-abu muda */
+  color: #333; /* Warna teks abu-abu gelap (lebih nyaman di mata daripada hitam pekat) */
+  line-height: 1.6; /* Jarak antar baris */
+
+  /* Membuat konten berada di tengah layar (opsional) */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #2563eb; /* Memberi warna biru pada Judul */
+  margin-bottom: 20px;
+}
